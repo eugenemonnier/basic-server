@@ -1,0 +1,72 @@
+/* pseudo class states */
+/*basic*/
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a:hover {
+  color: #E27689;
+  border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+/* Form */
+
+form input[type="text"]:focus,
+		form input[type="email"]:focus,
+		form input[type="password"]:focus,
+		form select:focus,
+		form textarea:focus {
+			box-shadow: 0 0 2px 1px #8ebebc;
+			background: #fff;
+    }
+    
+    form ::-webkit-input-placeholder {
+      color: #555 !important;
+    }
+  
+    form :-moz-placeholder {
+      color: #555 !important;
+    }
+  
+    form ::-moz-placeholder {
+      color: #555 !important;
+    }
+  
+    form :-ms-input-placeholder {
+      color: #555 !important;
+    }
+  
+    form ::-moz-focus-inner {
+      border: 0;
+    }
+
+/* Icons */
+
+.icon:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 1.25em;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+    
+/* Header*/
+
+#header .icons a:hover {
+  color: #fff;
+}
+
