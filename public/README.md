@@ -109,7 +109,7 @@ Estimate of time needed to complete: 2 hours
 
 Start time: 08:45
 
-Finish time: 
+Finish time: 13:55
 
-Actual time needed to complete: 
+Actual time needed to complete:  4 hours 10 minutes
 ```
